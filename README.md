@@ -1,5 +1,5 @@
 
-### 👋 Hello World !  <img src="media/Earth.gif" width="24px">
+### 👋 Hello World !  <img src="https://github.com/sebaslherrera/sebaslherrera/blob/master/media/Earth.gif" width="24px">
   
 :heart: Programming
   
@@ -13,7 +13,7 @@ I am a Software engineer with +2 years of experience as a web developer. Enthusi
 - 📫 How to reach me:
 
 | [<img src="media/github.png" alt="github logo" width="34">](https://github.com/sebaslherrera) |  [<img src="media/dev.png" alt="dev logo" width="24">](https://dev.to/sebaslherrera) |  [<img src="media/twitter.png" alt="twitter logo" width="34">](https://twitter.com/sebaslherrera) |  [<img src="media/linkedin.jpeg" alt="linkedin logo" width="24">](https://www.linkedin.com/in/sebaslherrera/) |  [<img src="media/gmail.jpeg" alt="gmail logo" width="24">](sebaslhdev@gmail.com)
-|---|---|---|---|---|---|
+
 
 ----
 
