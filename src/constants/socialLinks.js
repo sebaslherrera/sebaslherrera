@@ -1,12 +1,5 @@
-import React from "react";
-import {
-  FaFacebookSquare,
-  FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
-  FaTwitterSquare,
-  FaGithub,
-} from "react-icons/fa";
+import React from "react"
+import { FaLinkedin, FaTwitterSquare, FaGithub } from "react-icons/fa"
 
 const data = [
   {
@@ -24,19 +17,24 @@ const data = [
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
     url: "https://twitter.com/sebaslherrera",
   },
-];
-const links = data.map((link) => {
+]
+const links = data.map(link => {
   return (
     <li key={link.id}>
-      <a href={link.url} className="social-link" target="_blank">
+      <a
+        href={link.url}
+        className="social-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {link.icon}
       </a>
     </li>
-  );
-});
+  )
+})
 
 export default ({ styleClass }) => {
   return (
     <ul className={`social-links ${styleClass ? styleClass : ""}`}>{links}</ul>
-  );
-};
+  )
+}
