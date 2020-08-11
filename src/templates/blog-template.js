@@ -8,7 +8,6 @@ const ComponentName = ({
     blog: { content },
   },
 }) => {
-  console.log(content)
   return (
     <Layout>
       <section className="blog-template">
