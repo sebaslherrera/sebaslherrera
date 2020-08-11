@@ -17,10 +17,10 @@ const Error = () => {
       .then(
         result => {
           const {
-            data: { image_mp4_url: image_mp4_url },
+            data: { image_original_url },
           } = result
           setIsLoaded(true)
-          setItem(image_mp4_url)
+          setItem(image_original_url)
         },
         error => {
           setIsLoaded(true)
@@ -46,7 +46,7 @@ const Error = () => {
             Back Home
           </Link>
           {error === null && isLoaded && (
-            <video className="gif" src={item} autoPlay loop></video>
+            <img className="gif" src={item} alt="Random gif" autoPlay loop />
           )}
           <button className="btn" onClick={gifHandler}>
             Generate Another Gif
