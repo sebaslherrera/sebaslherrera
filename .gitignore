@@ -19,9 +19,10 @@ sketch
 
 ### Gatsby ###
 .cache
+public
 
 ### VisualStudioCode ###
-vscode
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
