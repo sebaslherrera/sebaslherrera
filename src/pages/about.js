@@ -3,7 +3,6 @@ import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
 import Image from "gatsby-image"
-import { FaStackExchange } from "react-icons/fa"
 import SEO from "../components/SEO"
 
 const About = ({

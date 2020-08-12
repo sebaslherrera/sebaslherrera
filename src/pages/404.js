@@ -35,6 +35,7 @@ const Error = () => {
 
   return (
     <Layout>
+      <SEO title="Oops 404 Page" description="404 web page" />
       <main className="error-page">
         <div className="error-container">
           <h2>
