@@ -9,7 +9,6 @@ import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
 
 export default ({ data }) => {
-  console.log(data)
   const {
     allStrapiProjects: { nodes: projects },
     allStrapiBlogs: { nodes: blogs },
