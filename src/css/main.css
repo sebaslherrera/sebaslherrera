@@ -3,7 +3,9 @@
 Fonts
 ===============
 */
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); 
+  Now we are using gatsby-plugin-prefetch-google-fonts on gatsby-config.js
+*/
 
 /*
 =============== 
@@ -38,10 +40,10 @@ Variables
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-white: #fff;
-  --ff-primary: "Roboto", sans-serif;
+  --ff-primary: "Poppins", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.2rem;
+  --spacing: 0.1rem; /* was 0.2rem */
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -1054,4 +1056,14 @@ Blog Template
 
 .error-container {
   margin: 5rem 0 5rem 0;
+}
+
+/* Logo style */
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: var(--ff-primary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--clr-grey-1);
 }

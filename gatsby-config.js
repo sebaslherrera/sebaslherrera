@@ -48,6 +48,10 @@ module.exports = {
           {
             family: `Open Sans`,
           },
+          {
+            family: `Poppins`,
+            variants: [`400`, `700`, `900`],
+          },
         ],
       },
     },
