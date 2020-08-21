@@ -4,11 +4,10 @@ import PageLinks from "../constants/links"
 import { Link } from "gatsby"
 
 const Navbar = ({ sideBarHandler }) => {
-  const path = window.location.pathname
   const [isHome, setHome] = React.useState(false)
   React.useEffect(() => {
-    path === "/" ? setHome(true) : setHome(false)
-  }, [path])
+    window.location.pathname === "/" ? setHome(true) : setHome(false)
+  }, [])
 
   return (
     <nav className="navbar">
