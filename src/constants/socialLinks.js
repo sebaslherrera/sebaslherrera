@@ -1,5 +1,6 @@
 import React from "react"
 import { FaLinkedin, FaTwitterSquare, FaGithub } from "react-icons/fa"
+import { FiMail } from "react-icons/fi"
 
 const data = [
   {
@@ -16,6 +17,11 @@ const data = [
     id: 3,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
     url: "https://twitter.com/sebaslherrera",
+  },
+  {
+    id: 4,
+    icon: <FiMail className="social-icon"></FiMail>,
+    url: "mailto:sebaslhdev@gmail.com",
   },
 ]
 const links = data.map(link => {
