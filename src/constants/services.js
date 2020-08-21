@@ -4,19 +4,19 @@ export default [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Full Stack Engineering",
+    text: `I have 2+ years of professional web development and software engineering experience. Most recently, I've been working with Nodejs and ReactJS, but I also do Python3 and C Freelance Projects`,
   },
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Project Management",
+    text: `I work using agile methodologies, personally I love SCRUM and kanban so I know how to proficiently use platforms like Jira and Taiga`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Maintenance & Support",
+    text: `I provide maintenance and technical support to my applications 24/7 with fast response times for critical issues.`,
   },
 ]

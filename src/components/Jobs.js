@@ -29,7 +29,6 @@ const Jobs = () => {
   const {
     allStrapiJobs: { nodes: jobs },
   } = data
-  console.log(jobs)
   jobs.sort((a, b) => b.order - a.order) // Order jobs from the latest
   const [value, setValue] = React.useState(0)
   const { company, position, date, desc } = jobs[value]
