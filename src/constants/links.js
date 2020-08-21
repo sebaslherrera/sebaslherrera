@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+
 const data = [
   {
     id: 1,
@@ -23,6 +24,12 @@ const data = [
   }, */
   {
     id: 5,
+    text: "resume",
+    url:
+      "https://drive.google.com/file/d/1Q3PMSAKsybxlhnqpPbjWHgran7kPx_o8/view?usp=sharing",
+  },
+  {
+    id: 6,
     text: "contact",
     url: "/contact/",
   },
@@ -31,7 +38,13 @@ const data = [
 const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
-      <Link to={link.url}>{link.text}</Link>
+      {link.text === "resume" ? (
+        <a href={link.url} target="__blank">
+          {link.text}
+        </a>
+      ) : (
+        <Link to={link.url}>{link.text}</Link>
+      )}
     </li>
   )
 })
