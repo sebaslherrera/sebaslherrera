@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "FullStack Dev",
+    title: "Sebastian Lopez H | Software Developer | Freelancer",
     description: "This is FullStack Portfolio Site",
     author: "@sebaslherrera",
     twitterUsername: "@sebaslherrera",

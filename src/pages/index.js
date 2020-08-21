@@ -16,7 +16,10 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Sebastian Lopez" description="This is our home page" />
+      <SEO
+        title="Sebastian Lopez H"
+        description="Hire Professional Python & NodeJs Developer. Building solutions for Back-end API's"
+      />
       <Hero />
       <Services />
       <Jobs />
