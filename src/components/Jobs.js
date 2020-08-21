@@ -4,15 +4,17 @@ import { FaAngleDoubleRight } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 
+//TODO: Add order field
 const query = graphql`
   {
-    allStrapiJobs(sort: { fields: strapiId, order: DESC }) {
+    allStrapiJobs(sort: { fields: strapiId, order: ASC }) {
       nodes {
         strapiId
         id
         company
         date
         position
+        order
         desc {
           id
           name
@@ -27,6 +29,8 @@ const Jobs = () => {
   const {
     allStrapiJobs: { nodes: jobs },
   } = data
+  console.log(jobs)
+  jobs.sort((a, b) => b.order - a.order) // Order jobs from the latest
   const [value, setValue] = React.useState(0)
   const { company, position, date, desc } = jobs[value]
   return (
