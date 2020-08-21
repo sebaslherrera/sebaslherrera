@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Title = ({ title }) => {
   return (
@@ -6,7 +6,7 @@ const Title = ({ title }) => {
       <h2>{title || "Super Title"}</h2>
       <div className="underline"></div>
     </div>
-  );
-};
+  )
+}
 
-export default Title;
+export default Title
